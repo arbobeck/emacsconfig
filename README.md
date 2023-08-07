@@ -1,6 +1,6 @@
 # emacsconfig
 
-This will be a public repository documenting my DOOM EMACS configuration.
+This is a public repository documenting my DOOM EMACS configuration (work in progress).
 
 early-init.el --- Doom's universal bootstrapper -*- lexical-binding: t -*-
 ;;; Commentary:
@@ -23,6 +23,9 @@ early-init.el --- Doom's universal bootstrapper -*- lexical-binding: t -*-
 ;; before Emacs initializes its UI or package.el, and before site files are
 ;; loaded. This is great place for startup optimizing, because only here can you
 ;; *prevent* things from loading, rather than turn them off after-the-fact.
+;;
+;; In Emacs 29, there is still early-init.el
+;;
 ;;
 ;; Doom uses this file as its "universal bootstrapper" for both interactive and
 ;; non-interactive sessions. That means: no matter what environment you want
