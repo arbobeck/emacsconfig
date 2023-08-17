@@ -350,3 +350,5 @@ early-init.el --- Doom's universal bootstrapper -*- lexical-binding: t -*-
  (load user-init-file 'noerror (not init-file-debug) nil 'must-suffix))
 
 ;;; early-init.el ends here
+
+Set up gmail in emacs.
